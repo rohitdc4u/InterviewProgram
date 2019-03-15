@@ -8,12 +8,10 @@ public class App {
 		Animal dog = null;
 		
 		try {
-			dog = new Animal("I am a dog", -5);
-		}
-		
-		catch(AnimalException e){
-			
-			System.out.println(e.getMessage());
+			dog = new Animal("I am a dog", 10);
+		} catch (AnimalException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 
 	}

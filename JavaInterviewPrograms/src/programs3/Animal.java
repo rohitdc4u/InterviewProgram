@@ -7,8 +7,11 @@ public class Animal {
 	
 	public Animal(String name, int age) throws AnimalException{
 		if(age<0) {
-			throw new AnimalException("An animal cant have a negative age " + age);
-		}
+			
+				throw new AnimalException("An animal cant have a negative age " + age);
+			
+			}
+		
 		else {
 			this.name= name;
 			this.age= age;
